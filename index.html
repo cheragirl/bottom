@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022.02.03 bottom</title>
+    <script src="./js/jquery-1.11.3.js"></script>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 디테일인포 -->
+    <div class="detail_info">
+        <div class="detail_info_title">
+            <h2>Detail info</h2>
+        </div>
+        <div class="detail_info_table">
+            <ul>
+                <li class="title">Model</li>
+                <li class="right">세준 120cm / 22kg / 11호</li>
+            </ul>
+            <ul>
+                <li class="title">Color</li>
+                <li class="right">그린, 연베이지</li>
+            </ul>
+            <ul>
+                <li class="title">Size</li>
+                <li class="right">05-17호</li>
+            </ul>
+            <ul>
+                <li class="title">Fabric</li>
+                <li class="right">면100%</li>
+            </ul>
+        </div>
+        <p>구매시 하단의 정보와 사이즈 오차범위 관련 내용을 참고해주세요.</p>
+    </div>
+
+    <!-- 사이즈 -->
+    <div class="size_info">
+        <div class="size_img">
+            <img src="./images/clothes_size_07.png" alt="사이즈이미지">
+        </div>
+        <p>Size(cm)</p>
+        <div class="size_table">
+            <ul class="size_title">
+                <li class="bold">사이즈</li>
+                <li>허리</li>
+                <li>밑위</li>
+                <li>허벅지</li>
+                <li>총길이</li>
+            </ul>
+            <ul>
+                <li class="bold">05호</li>
+                <li>18</li>
+                <li>19</li>
+                <li>19.5</li>
+                <li>51</li>
+            </ul>
+            <ul>
+                <li class="bold">07호</li>
+                <li>19</li>
+                <li>20.5</li>
+                <li>20.5</li>
+                <li>54</li>
+            </ul>
+            <ul>
+                <li class="bold">09호</li>
+                <li>20</li>
+                <li>22</li>
+                <li>21.5</li>
+                <li>57</li>
+            </ul>
+            <ul>
+                <li class="on">11호(세준)</li>
+                <li>21</li>
+                <li>23.5</li>
+                <li>22.5</li>
+                <li>60</li>
+            </ul>
+            <ul>
+                <li class="bold">13호</li>
+                <li>22</li>
+                <li>25</li>
+                <li>23.5</li>
+                <li>63</li>
+            </ul>
+            <ul>
+                <li class="bold">15호</li>
+                <li>23</li>
+                <li>26.5</li>
+                <li>24.5</li>
+                <li>66</li>
+            </ul>
+            <ul>
+                <li class="bold">17호</li>
+                <li>24</li>
+                <li>28</li>
+                <li>25.5</li>
+                <li>69</li>
+            </ul>
+        </div>
+    </div>
+    <div class="size_notice">
+        <p>
+            <strong>· 모델 착용: FREE(44~66), 차콜</strong>
+        </p>
+        <p>· 단위 : cm</p>
+        <p>· 위의 실측 사이즈는 '단면의 길이'입니다. 참고해 주세요.</p>
+        <p>· 사이즈는 측정 방법에 따라 1~3cm 정도 오차가 있을 수 있습니다.</p>
+        <p>· 제품색상은 사용자의 모니터 해상도에 따라 실제 색상과 다소 차이가 있을 수 있습니다.</p>
+        <p>· 제품 디테일 컷의 색상이 실제 제품 색상과 가장 비슷합니다.</p>
+    </div>
+
+   <!-- 페브릭 -->
+    <div class="fabric">
+        <div class="fabric_title">
+            <h2>Fabric</h2>
+        </div>
+        <div class="fabric_table">
+            <ul>
+                <li class="title">두께감</li>
+                <li>두꺼움</li>
+                <li class="on">보통</li>
+                <li>얇음</li>
+            </ul>
+            <ul>
+                <li class="title">비침</li>
+                <li>있음</li>
+                <li>약간있음</li>
+                <li>밝은컬러 비침</li>
+                <li class="on">없음</li>
+            </ul>
+            <ul>
+                <li class="title">신축성</li>
+                <li>좋음</li>
+                <li>약간있음</li>
+                <li class="on">없음</li>
+            </ul>
+            <ul>
+                <li class="title">촉감</li>
+                <li>부드러움</li>
+                <li class="on">보통</li>
+                <li>거침</li>
+            </ul>
+            <ul>
+                <li class="title">핏</li>
+                <li class="on">루즈핏</li>
+                <li>기본핏</li>
+                <li>타이트</li>
+            </ul>
+            <ul>
+                <li class="title">안감</li>
+                <li class="on">전체</li>
+                <li>부분</li>
+                <li>없음</li>
+                <li>기모</li>
+                <li>퍼</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 가이드라인 -->
+    <div class="guidelines">
+        <div class="guidelines_title">
+            <h2>Guidelines</h2>
+        </div>
+        <div class="guidelines_text">
+            <p>
+            · 관련 상품에 표기되지 않은 상품들은 품절 또는 개인 소장이오니 참고 바랍니다. <br />
+            · 함께 착용한 데님팬츠는 2월 중 업데이트 예정입니다.<br />
+            · 업데이트 일정은 변경될 가능성이 있으므로 참고 바랍니다.<br />
+            · 어두운 컬러 특성상 이염이 발생할 수 있으므로, 밝은 컬러의 제품(의류, 액세서리)과 착용 시 주의 바랍니다.<br />
+            · 마찰에 의한 필링 현상(보풀)이나 날카로운 물건과의 접촉 시 올 뜯김 현상이 있을 수 있으니 착용 시 주의 바랍니다.<br />
+            · 모가 함유된 제품으로 피부 예민함 정도에 따라 따갑게 느끼실 수 있으니 이너 제품과 함께 착용하실 것을 권장합니다.<br />
+            </p>
+        </div>
+    </div>
+
+    <!-- 워싱케어 -->
+    <div class="washingcare">
+        <div class="washingcare_title">
+            <h2>Washing & Care</h2>
+        </div>
+        <div class="washingcare_box">
+            <ul>
+                <li>
+                    <img src="./images/washing_icon_21.png" alt="드라이클리닝">
+                    <p>드라이<br />크리닝</p>
+                </li>
+                <li>
+                    <img src="./images/washing_icon_09.png" alt="염소표백불가">
+                    <p>염소표백<br />불가</p>
+                </li>
+                <li>
+                    <img src="./images/washing_icon_26.png" alt="햇빛에서 옷걸이 걸어서 건조">
+                    <p>햇빛에서 옷걸이<br />걸어서 건조</p>
+                </li>
+                <li>
+                    <img src="./images/washing_icon_17.png" alt="헝겊덮고 낮은 온도로 다림징">
+                    <p>원단 위에 헝겊 덮고<br />낮은 온도로 다림질</p>
+                </li>
+                <li>
+                    <img src="./images/washing_icon_30.png" alt="기계건조불가">
+                    <p>기계건조<br />불가</p>
+                </li>
+            </ul>
+        </div>
+        <div class="washingcare_text">
+            <p>
+                · 예민한 소재가 혼용되어 있는 상품으로 세탁 케어 방법을 준수하여 주시기 바랍니다. <br />
+                · 모가 함유된 소재로 드라이클리닝을 권장하나, 부득이한 경우 30도 이하의 미온수 및 찬물에 세탁하되 건조기 사용은 피해주세요. <br />
+                · 모(울) 소재의 특성상, 마찰이 심한 부분에 보풀이 생길 수 있습니다. <br />
+            </p>
+        </div>
+        <div class="washingcare_btn">
+            <ul>
+                <li><img src="./images/fabric_icon_01.jpg" alt="천"></li>
+                <li><p>소재별 관리법 자세히 보기</p></li>
+                <li><img src="./images/fabric_icon_02.jpg" alt="화살표"></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 프로덕트 인포 -->
+    <div class="product_info">
+        <div class="product_info_title">
+            <h2>Product Info</h2>
+        </div>
+        <div class="product_info_table">
+            <ul>
+                <li class="title">제조사</li>
+                <li class="right">저스트보니 협력업체</li>
+            </ul>
+            <ul>
+                <li class="title">제조연월</li>
+                <li class="right">2022년 2월 이후</li>
+            </ul>
+            <ul>
+                <li class="title">제조국</li>
+                <li class="right">한국</li>
+            </ul>
+            <ul>
+                <li class="title">품질보증기준</li>
+                <li class="right">전자상거래 소비자 보호법에 규정되어 있는 소비가 청약철회 가능범위를 준수합니다.</li>
+            </ul>
+            <ul>
+                <li class="title">A/S정보 및 담당자</li>
+                <li class="right">저스트보니 고객센터 1688-2979 </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 모달창 -->
+
+    <!-- 모달창내용 -->
+    <div class="background">
+        <div class="modal">
+            <div class="modal_content">
+                <div id="slide">
+                    <input type="radio" name="pos" id="pos1" checked>
+                    <input type="radio" name="pos" id="pos2">
+                    <header>
+                        <div class="title"><p>소재별 세탁 및 관리방법</p></div>
+                        <div class="close_btn"><p>X</p></div>
+                    </header>
+                    <ul>
+                        <li>
+                            <div class="center">
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/cotton.png" alt="면">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>면 | COTTON</p>
+                                                </div>
+                                                <div class="text">
+                                                    세탁기 사용이 가능하며, 형태 변형을 방지하기 위해 세탁망에 넣어서 세탁하는 것을 권장합니다.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/linen.png" alt="린넨">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>린넨 | LINEN</p>
+                                                </div>
+                                                <div class="text">
+                                                    미지근한 물에 중성세제로 세탁해주세요.  섬유유연제, 건조기 사용을 피해주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/nylon.png" alt="나일론">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>나일론 | NYLON</p>
+                                                </div>
+                                                <div class="text">
+                                                    중성, 약알칼리성 세제로 세탁해주세요.  표백제는 피해주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/rayon.png" alt="레이온">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>레이온 | RAYON</p>
+                                                </div>
+                                                <div class="text">
+                                                    수축이 될 수 있으므로 드라이클리닝을 권장합니다. 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/napping.png" alt="기모">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>기모 | NAPPING</p>
+                                                </div>
+                                                <div class="text">
+                                                    보풀이 잘 일어날 수 있으니 세탁망에 넣어 단독 세탁해주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/modal.png" alt="모달">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>모달 | MODAL</p>
+                                                </div>
+                                                <div class="text">
+                                                    면보다 우수하여 물세탁이 가능하므로 중성세제로 가볍게 주물러 세탁해주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/poly.png" alt="폴리에스터">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>폴리에스터 | POLY</p>
+                                                </div>
+                                                <div class="text">
+                                                    열에 약하므로, 삶는 세탁은 피하시고, 미지근한 물에 중성세제로 세탁하는 것을 권장합니다.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/chiffon.png" alt="쉬폰">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>쉬폰 | CHIFFON</p>
+                                                </div>
+                                                <div class="text">
+                                                    열에 약한 소재이므로, 원형 보존을 위해 드라이클리닝을 권장합니다.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/silk.png" alt="실크">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>실크 | SILK</p>
+                                                </div>
+                                                <div class="text">
+                                                    수축이 될 수 있으므로 드라이클리닝을 권장합니다.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/acrylic.png" alt="아크릴">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>아크릴 | ACRYLIC</p>
+                                                </div>
+                                                <div class="text">
+                                                    쉽게 수축되는 소재로 드라이클리닝을 권장합니다. 손세탁시 미지근한 물에 울 샴푸로 가볍게 눌러 세탁해주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="center">
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/wool.png" alt="울">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>울 | WOOL</p>
+                                                </div>
+                                                <div class="text">
+                                                    첫 세탁은 반드시 드라이클리닝을 권장합니다. 손세탁 시 미지근한 물에 울 샴푸로 가볍게 눌러 세탁해주세요. 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/knit.png" alt="니트">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>니트 | KNIT</p>
+                                                </div>
+                                                <div class="text">
+                                                    소재특성상 수축이 있을 수 있어 드라이세제 또는 울세제로 잠깐 담궜다가 단독 손세탁을 권장합니다.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/angora.png" alt="앙고라">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>앙고라 | ANGORA</p>
+                                                </div>
+                                                <div class="text">
+                                                    미지근한 물에 울 샴푸로 주무르듯 눌러 세탁 후 섬유 유연제로 헹궈 주세요. 정전기방지제를 사용하시면 털 빠짐도 줄어듭니다.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/fur.png" alt="퍼">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>퍼 | FUR</p>
+                                                </div>
+                                                <div class="text">
+                                                    열기에 주의해야 하며, 드라이클리닝을 권장합니다. 모양이 틀어졌을 때는 그 부분만 스팀으로 모양을 다시 잡아주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/suede.png" alt="스웨이드">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>스웨이드 | SUEDE</p>
+                                                </div>
+                                                <div class="text">
+                                                    열에 약하므로 삶는 세탁은 안되며, 미지근한 물에 중성세제로 세탁하는 것을 권장합니다.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/leather.png" alt="레더">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>가죽 | LEATHER</p>
+                                                </div>
+                                                <div class="text">
+                                                    오염된 부분을 가죽 전용 클리너로 닦아주세요. 습기를 피하고 통풍이 잘 되는 곳에 보관하여 주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/mustang.png" alt="무스탕">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>무스탕 | MUSTANG</p>
+                                                </div>
+                                                <div class="text">
+                                                    온도와 습기가 낮고 통풍이 잘 되는 곳에 보관해주시고 장마철에는 그늘진 곳에 보관해주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/denim.png" alt="데님">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>데님 | DENIM</p>
+                                                </div>
+                                                <div class="text">
+                                                    물 빠짐이 쉬운 소재로 첫 세탁은 드라이클리닝을 권장합니다. 물세탁 시 중성세제를 사용하여 뒤집어서 단독 세탁해주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/goosedown.png" alt="다운패딩">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>다운패딩 | GOOSE DOWN</p>
+                                                </div>
+                                                <div class="text">
+                                                    다운의 특성이 저하되는 것을 막기 위해 물세탁을 권장합니다. 섬유유연제는 피해주시고 탈수기를 이용하여 단시간에 물을 빼 주세요. 건조 시 통풍이 잘 되는 곳에서 뉘어서 건조해주세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="con_inner">
+                                            <div class="left">
+                                                <img src="./images/padding.png" alt="솜패딩">
+                                            </div>
+                                            <div class="right">
+                                                <div class="title">
+                                                    <p>솜 패딩 | PADDING</p>
+                                                </div>
+                                                <div class="text">
+                                                    물세탁 시 미지근한 물에 중성세제를 사용해주세요. 세탁 후 옷걸이에 걸지 마시고 그늘에 뉘어서 말리되 솜의 결을 살리기 위해 중간중간 손으로 두드려주면서 부풀려줘야 패딩의 볼륨감이 되살아 난답니다.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="pos">
+                        <label for="pos1"></label>
+                        <label for="pos2"></label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
